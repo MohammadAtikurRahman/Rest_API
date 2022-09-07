@@ -40,12 +40,6 @@ scp -r dist ibmuser@my.mainframe.com:</usr/lpp/extender>/sample-node-api
 
 For the next step, ensure that you have node installed on z/OS and your PATH includes nodejs/bin directory.
 
-```
-ssh ibmuser@my.mainframe.com
-. ~/.profile - (Skip if you can already run "npm" on z/OS)
-cd </usr/lpp/extender>/sample-node-api
-npm install
-```
 
 ## Method 2: From Artifactory
 ### 1) Download latest pax from artifactory
